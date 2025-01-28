@@ -1,5 +1,7 @@
 ## *Oi, eu sou o Miguel!*
-Sou um estudante que esta buscando aprender Java.
+Sou um estudante que esta buscando aprender Java. <br>
+Aqui ficarão minhas anotações do curso de Java do **DevDojo**<br>
+
 
 ## Como o Java funciona?
 ![img.png](img.png)
@@ -28,5 +30,7 @@ Note que com excessão do tipo *boolean*, todos os valores armazenam **valores n
 
 Cast -> Força o Java a colocar uma variavel de um tipo primitivo em outra de outro tipo primitivo <br>
 *Não é uma boa prática, já que é só trocar o tipo primitivo da váriavel* <br>
+
+### Troquei o Project language level do 21 para o 8.
 
 

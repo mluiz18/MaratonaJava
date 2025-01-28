@@ -1,5 +1,7 @@
 package academy.devdojo.maratonajava.introducao;
 
+import java.sql.SQLOutput;
+
 public class Aula02_TiposPrimitivos {
     public static void main(String[] args) {
 
@@ -15,8 +17,17 @@ public class Aula02_TiposPrimitivos {
         boolean True = true;
         boolean False = false;
         char character = 77;
+        String text = "Miguel";
+        Short num = 18;
+
+        // A Partir do java 10, é possivel declarar uma variavel somente com um var antes do nome
+        // Ex: var nome = "Miguel" <- o compilador entende
+
         System.out.println("Idade: " + ageFather + " anos");
         System.out.println("Salário: R$" + salaryFloat);
         System.out.println(character);
+        System.out.println("Meu nome é " + text);
+        System.out.println(num);
+
     }
 }
