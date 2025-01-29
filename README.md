@@ -33,4 +33,35 @@ Cast -> Força o Java a colocar uma variavel de um tipo primitivo em outra de ou
 
 ### Troquei o Project language level do 21 para o 8.
 
+## Operadores
+
+### Aritméticos <br>
+**Sinais** <br> + = soma <br> - = subtração <br>* = multiplicação<br>/ = divisão<br>
+
+*Se você dividir dois números inteiros, o resultado sempre será um inteiro.*
+
+### Relacionais <br>
+Sempre vão retornar valores lógicos (*true* ou *false*)
+
+**Sinais**<br> > : Maior que <br> < : Menor que <br> >= : Maior ou igual a <br> <= : Menor ou igual a <br> == : igual a <br> != : Diferente de <br>
+
+### Lógicos <br>
+Serve para comparar valores lógicos (*true* ou *false*)
+
+**Sinais** <br> && = and -> todas as afirmações tem que ser verdadeiras, para o operador ser verdadeiro.<br> || = or -> apenas uma afirmação precisa ser verdadeira, para o operador ser verdadeiro. <br>
+
+### Operadores de Atribuição
+Servem para escrever um código mais curto
+
+**Sinais** <br> 
+= : atribui um valor a uma variavel<br> 
++= : adiciona um valor a variável <br> 
+-= : subtrai um valor da variavel <br> 
+*= : multiplica a variavel por um valor <br> 
+/= divide a variavel por um valor <br> 
+%= : calcula o resto da divisão por um valor <br>
+
+*++ -- -> forma mais abreviada ainda dos operadores de atribuição* <br>
+se colocar o ++/-- antes da variavel, o compilador irá adicionar +1 ou subtrair -1 antes de utilizar a variavel. <br>
+se colocar o ++/-- depois da variavel, o compilador irá usar a variável primeiro, depois ira adicionar/subtrair 1.
 
