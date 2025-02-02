@@ -61,7 +61,7 @@ Servem para escrever um código mais curto
 /= divide a variavel por um valor <br> 
 %= : calcula o resto da divisão por um valor <br>
 
-*++ -- -> forma mais abreviada ainda dos operadores de atribuição* <br>
+**-> forma mais abreviada ainda dos operadores de atribuição** <br>
 se colocar o ++/-- antes da variavel, o compilador irá adicionar +1 ou subtrair -1 antes de utilizar a variavel. <br>
 se colocar o ++/-- depois da variavel, o compilador irá usar a variável primeiro, depois ira adicionar/subtrair 1.
 

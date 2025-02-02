@@ -1,5 +1,7 @@
 package academy.devdojo.maratonajava.introducao;
 
+import java.util.Scanner;
+
 public class Aula04_Operadores {
     public static void main(String[] args) {
         // Operadores Aritméticos (+ - * / %)
@@ -56,5 +58,7 @@ public class Aula04_Operadores {
         ++contador; // vai adicionar +1 ANTES de usar a variavel
         --contador; // vai subtrair -1 ANTES de usar a variavel
         System.out.println(contador);
+
     }
 }
+
