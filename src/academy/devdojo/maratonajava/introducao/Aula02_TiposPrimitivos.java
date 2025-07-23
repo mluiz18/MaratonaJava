@@ -29,5 +29,11 @@ public class Aula02_TiposPrimitivos {
         System.out.println("Meu nome é " + text);
         System.out.println(num);
 
+        // Casting -> forço ao compilador a colocar um numero de bits em outro (mesmo que ele não suporte)
+        // pora isso o java vai começar a cortar bit pra encaixar, saindo um número estranho
+        int Idade = (int) 10000000000L;
+        System.out.println(Idade);
+
+
     }
 }
