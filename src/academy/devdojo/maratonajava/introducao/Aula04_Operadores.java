@@ -1,7 +1,5 @@
 package academy.devdojo.maratonajava.introducao;
 
-import java.util.Scanner;
-
 public class Aula04_Operadores {
     public static void main(String[] args) {
         // Operadores Aritméticos (+ - * / %)
@@ -29,7 +27,7 @@ public class Aula04_Operadores {
         System.out.println("isDezIgualQueVinte " + isDezIgualVinte);
         System.out.println("isDezDiferenteDeVinte " + isDezDiferenteDeVinte);
 
-        // Operadores Lógicos (and (&&) e or (||))
+        // Operadores Lógicos (and (&&) e or (||) e not(!))
         int idade = 25;
         float salario = 3500F;
         boolean isDentroDaLeiMaiorQueTrinta = idade > 30 && salario >= 4612;
