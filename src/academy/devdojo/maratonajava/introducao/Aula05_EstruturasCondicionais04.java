@@ -4,8 +4,9 @@ public class Aula05_EstruturasCondicionais04 {
     public static void main(String[] args) {
         // Imprima o dia da semana, considerando 1 como domingo.
         byte dia = 7;
+
         // char, int, byte, short, enum, String
-        switch(dia) {
+        switch (dia) {
             case 1:
                 System.out.println("Domingo");
                 break;
@@ -32,7 +33,7 @@ public class Aula05_EstruturasCondicionais04 {
         }
 
         char sexo = 'H';
-        switch (sexo){
+        switch (sexo) {
             case 'M':
                 System.out.println("Mulher");
                 break;

@@ -7,7 +7,7 @@ package academy.devdojo.maratonajava.introducao;
 public class Aula05_EstruturasCondicionaisExercicio02 {
     public static void main(String[] args) {
         byte dia = 1;
-        switch(dia) {
+        switch (dia) {
             case 1:
                 System.out.println("Domingo - Final de Semana");
                 break;
