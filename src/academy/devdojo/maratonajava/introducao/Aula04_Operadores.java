@@ -47,8 +47,10 @@ public class Aula04_Operadores {
         bonus -= 1000; // 2.000
         bonus *= 1000; // 2.000.000
         bonus /= 1000; // 2.000
+        bonus %= 1000; // 0
         System.out.println(bonus);
 
+        // Contadores Unários
         // ++ -- -> forma mais abreviada ainda dos operadores de atribuição
         int contador = 0;
         contador++; // vai adicionar +1 DEPOIS de usar a variavel
