@@ -6,17 +6,16 @@ public class Aula06_EstruturasDeRepetição01 {
         // while
         int n = 1;
         while (n < 10) {
-            n = n + 1;
-            System.out.println(n);
+            System.out.println(n++);
         }
 
-        //do while
+        //do while -> vai executar pelo menos uma vez, ja que a verificação da expressão booleana está depois do bloco de código a ser executado.
         do {
             System.out.println("do-while");
         } while (n < 10);
 
         //for
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++) { // for (inicialização de variavel; até onde a variavel vai ser executada; passo);
             System.out.println("for " + i);
         }
     }
