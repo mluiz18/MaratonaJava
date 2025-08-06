@@ -8,9 +8,11 @@ public class EstudanteTeste02 {
         Estudante estudante1 = new Estudante();
 
         estudante.Pessoa = "Ricardo";
+        estudante.altura = 1.60;
         System.out.println(estudante.Pessoa);
         System.out.println(estudante.Idade);
         System.out.println(estudante.Sexo);
+        System.out.println(estudante.altura);
         System.out.println("-------------------");
         System.out.println(estudante1.Pessoa);
         System.out.println(estudante1.Idade);
