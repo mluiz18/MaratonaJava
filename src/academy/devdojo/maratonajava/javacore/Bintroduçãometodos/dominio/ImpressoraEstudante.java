@@ -7,5 +7,6 @@ public class ImpressoraEstudante {
         System.out.println(estudante.sexo);
         System.out.println(estudante.altura);
         estudante.pessoa = "Ricardo";
+        // sempre que eu precisar atribuir algum valor a um objeto de referencia, eu envio uma cópia (vou aprender ainda como faz)
     }
 }
